@@ -1,0 +1,7 @@
+CREATE TABLE IF NOT EXISTS city (
+    id BIGINT PRIMARY KEY,
+    name VARCHAR(100) NOT NULL
+);
+
+
+CREATE INDEX IF NOT EXISTS idx_city_name ON city (name);

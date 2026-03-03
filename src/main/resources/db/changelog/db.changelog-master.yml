@@ -1,0 +1,40 @@
+databaseChangeLog:
+  - changeSet:
+      id: 2026-03_02_22_30
+      author: rafaela.peres
+      changes:
+        - sqlFile:
+            path: db/changelog/sql/2026_03_02_22_30_create_table_city.sql
+            relativeToChangelogFile: false
+            splitStatements: true
+            stripComments: true
+
+  - changeSet:
+      id: 2026-03_02_22_35
+      author: rafaela.peres
+      changes:
+        - sqlFile:
+            path: db/changelog/sql/2026_03_02_22_35_create_table_route.sql
+            relativeToChangelogFile: false
+            splitStatements: true
+            stripComments: true
+
+  - changeSet:
+      id: 2026-03_02_22_40
+      author: rafaela.peres
+      changes:
+        - sqlFile:
+            path: db/changelog/sql/2026_03_02_22_40_create_table_package.sql
+            relativeToChangelogFile: false
+            splitStatements: true
+            stripComments: true
+
+  - changeSet:
+      id: 2026-03_02_22_45
+      author: rafaela.peres
+      changes:
+        - sqlFile:
+            path: db/changelog/sql/2026_03_02_22_45_create_table_delivery.sql
+            relativeToChangelogFile: false
+            splitStatements: true
+            stripComments: true
